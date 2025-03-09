@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+.digital-animate{
+  animation: digital 5s infinite;
+  transform: rotateZ(-20deg);
+  display: inline-block;
+}
+@keyframes digital {
+  0% {
+    text-shadow: 10px 10px 20px red;
+  }
+  33% {
+    text-shadow: 10px 10px 20px green;
+  }
+  66% {
+    text-shadow: 10px 10px 20px blue;
+  }
+  100% {
+    text-shadow: 10px 10px 20px red;
+  }
+}
+.clock-animate{
+  animation: clock 4.5s infinite;
+  transform: rotateZ(-20deg);
+  display: inline-block;
+}
+@keyframes clock {
+  0% {
+    text-shadow: 10px 10px 20px red;
+    transform: rotateX(20deg);
+  }
+  33% {
+    text-align: 10px 10px 20px green;
+  }
+  66% {
+    text-shadow: 10px 10px 20px blue;
+  }
+  100% {
+    text-shadow: 10px 10px 20px red;
+  }
+}
+
